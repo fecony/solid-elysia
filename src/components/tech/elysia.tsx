@@ -5,7 +5,7 @@ export const Elysia = () => {
     <a
       href='https://elysiajs.com/'
       target='_blank'
-      class='inline-flex items-center justify-center p-5 text-base font-medium text-gray-500 rounded-md bg-gray-50 hover:text-gray-900 hover:bg-gray-100'
+      class='inline-flex items-center justify-center p-5 text-base font-medium text-gray-500 rounded-lg bg-gray-50 hover:text-gray-900 hover:bg-gray-100'
     >
       <svg
         xmlns='http://www.w3.org/2000/svg'
@@ -251,7 +251,7 @@ export const Elysia = () => {
           </g>
         </g>
       </svg>
-      <span class='relative text-transparent bg-clip-text bg-gradient-to-r from-sky-300 to-indigo-400 w-full'>
+      <span class='relative text-transparent bg-clip-text bg-gradient-to-r from-sky-300 to-indigo-400'>
         Learn how to build Elysia apps
       </span>
       <TbArrowRight class='w-4 h-4 ms-2' />

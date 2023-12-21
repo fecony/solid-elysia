@@ -4,7 +4,9 @@ WORKDIR /usr/src/app
 
 COPY . /usr/src/app
 
-RUN bun install
+RUN bun install --production
+
+ENV NODE_ENV production
 
 EXPOSE 8080
 
